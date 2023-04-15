@@ -1,0 +1,70 @@
+/* ------------------ SLIDER ------------------ */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #d3a95b;
+}
+
+/*body {
+    display: flex;
+    height: 100vh;
+    background: #f3ac28;
+}*/
+
+img {
+    display: block;
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+
+.container-slider{
+    position: relative;
+    width: 55%;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;  /*hace que solamente se vea lo que hay dentro del tamaño del slider, en este caso el total del slider es del */
+    /*del 100% y dentro hay una imagen del 100%, las otras dos imagenes se tapan
+    box-shadow: 0 0 10px 10px #fff, 1px 1px 10px 10px #000;*/
+}
+
+
+.slider {
+    display: flex;
+    width: 400%;
+    height: 500px;
+    margin-left: -100%;
+    margin-top: 30%;
+}
+
+.slider_img{
+    width: 100%;
+}
+
+.slider__btn{
+    top: 88%;
+    right: 50%;
+    position: absolute;
+    color: #f7a75d;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.slider__btn:hover{
+    color: #ccc;
+}
+
+.slider__btn--right {
+    right: 45%;
+}
+
+.slider__btn--left {
+    right: 55%;
+}
+
+
+
+
+
+
